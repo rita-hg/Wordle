@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="787.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2daf0" height="64.0" layoutX="257.0" layoutY="516.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ButtonBar fx:id="boardRow0" buttonMinWidth="50.0" layoutX="156.0" layoutY="78.0" prefHeight="110.0" prefWidth="381.0">
+        <buttons>
+          <Button fx:id="boardBtn0" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn1" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn2" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn3" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn4" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+        </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="boardRow1" buttonMinWidth="50.0" layoutX="156.0" layoutY="144.0" prefHeight="110.0" prefWidth="381.0">
+         <buttons>
+            <Button fx:id="boardBtn0" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn1" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn2" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn3" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn4" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+         </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="boardRow2" buttonMinWidth="50.0" layoutX="156.0" layoutY="208.0" prefHeight="110.0" prefWidth="381.0">
+         <buttons>
+            <Button fx:id="boardBtn0" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn1" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn2" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn3" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn4" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+         </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="boardRow3" buttonMinWidth="50.0" layoutX="156.0" layoutY="276.0" prefHeight="110.0" prefWidth="381.0">
+         <buttons>
+            <Button fx:id="boardBtn0" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn1" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn2" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn3" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn4" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+         </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="boardRow4" buttonMinWidth="50.0" layoutX="156.0" layoutY="341.0" prefHeight="110.0" prefWidth="381.0">
+         <buttons>
+            <Button fx:id="boardBtn0" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn1" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn2" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn3" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn4" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+         </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="boardRow5" buttonMinWidth="50.0" layoutX="156.0" layoutY="408.0" prefHeight="110.0" prefWidth="381.0">
+         <buttons>
+            <Button fx:id="boardBtn0" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn1" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn2" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn3" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+            <Button fx:id="boardBtn4" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" />
+         </buttons>
+      </ButtonBar>
+      <Label layoutX="261.0" layoutY="14.0" text="WORDLE">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <ButtonBar fx:id="letterRow0" buttonMinWidth="50.0" layoutX="41.0" layoutY="560.0" prefHeight="110.0" prefWidth="549.0">
+         <buttons>
+            <Button fx:id="Q" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="Q">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="W" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="39.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="124.0" text="W">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="E" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="76.0" text="E">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="R" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="39.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="R">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="T" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="T">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="Y" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="Y">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="U" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="U">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="I" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="I">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="O" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="O">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="P" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="P">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="letterRow1" buttonMinWidth="50.0" layoutX="64.0" layoutY="608.0" prefHeight="110.0" prefWidth="549.0">
+         <buttons>
+            <Button fx:id="A" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="76.0" text="A">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="S" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="39.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="S">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="D" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="D">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="F" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="F">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="G" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="G">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="H" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="H">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="J" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="J">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="K" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="K">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="L" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="76.0" text="L">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="letterRow2" buttonMinWidth="50.0" layoutX="82.0" layoutY="663.0" prefHeight="110.0" prefWidth="549.0">
+         <buttons>
+            <Button fx:id="Z" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="43.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="76.0" text="Z">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="X" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="39.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="X">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="C" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="C">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="V" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="V">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="B" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="B">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="N" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="N">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="M" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="76.0" text="M">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </buttons>
+      </ButtonBar>
+      <Button fx:id="deleteBtn" layoutX="27.0" layoutY="484.0" mnemonicParsing="false" text="DELETE" />
+      <Button fx:id="enterBtn" layoutX="596.0" layoutY="478.0" mnemonicParsing="false" text="ENTER" />
+      <Button fx:id="resetBtn" layoutX="595.0" layoutY="86.0" mnemonicParsing="false" text="RESET" />
+      <Label fx:id="currGuess" alignment="CENTER" layoutX="241.0" layoutY="525.0" prefHeight="46.0" prefWidth="232.0" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+         <Button fx:id="saveBtn" layoutX="38.0" layoutY="99.0" mnemonicParsing="false" text="SAVE" />
+         <Button fx:id="loadBtn" layoutX="38.0" layoutY="144.0" mnemonicParsing="false" text="LOAD" />
+   </children>
+</Pane>
+</VBox>

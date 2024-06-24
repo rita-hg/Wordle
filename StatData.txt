@@ -1,0 +1,10 @@
+numGames 13
+numWins 9
+guess1 1
+guess2 3
+guess3 4
+guess4 1
+guess5 0
+guess6 0
+currStreak 1
+maxStreak 1
